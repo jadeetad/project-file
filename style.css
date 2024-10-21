@@ -1,0 +1,236 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}/*universal style*/
+body{
+    background-color: white;
+
+    
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}/*nav container*/
+.navbar{
+    background:rgb(175, 176, 177);
+    color:#370404;
+    height: 40px;
+
+}
+
+ul{
+    list-style-type: none;
+}/*ul within the navbar*/
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+}/*logo*/
+.navbar a{
+    color:#370404;
+font-size: 18px;
+font-weight: bold;
+text-decoration: none;
+}
+.navbar a:hover{
+    color: rgb(231, 129, 146);
+
+}/*color on hover*/
+.navbar .container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height:100%;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    margin-left: 20px;
+}/*nav li*/
+
+
+
+.t{
+    width: 250px;
+    height: 50px;
+    margin-right:  20px;
+    padding-top: 30px;/*intro-section second image*/
+}
+.v{
+    height:250px;
+    margin-left:300px;
+}/*intro-section first image*/
+
+
+.firstdiv{
+        align-items: center;
+        margin-bottom: 10px;
+}
+.intro-content{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    margin-top: 50px;
+}/*first section*/
+
+.apl{
+    margin-bottom: 10px;
+}/*a class*/
+.pl{
+    margin-top: 10px;
+}/*another class8*/
+.text{
+    color: #370404;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+.second{
+    width:100%;
+    background-color: #370404;
+    color: white;
+    margin-top: 60px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+  position: relative;
+    padding-top: 70px;
+}/*second section*/
+.second p{
+    
+    margin-top: 50px;
+
+}
+.second h1{
+    position: absolute;
+    top: 30px;
+    left: px;
+    z-index: 1;
+    margin-left:1px;
+   
+}
+
+
+
+.s{
+    height: 250px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left:240px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 0;
+
+}
+
+.h img{
+    width: 100%;
+    height: 600px;
+}
+.pic image{
+    width: 100%;
+    height: 600px;
+}
+.third hr{
+   
+    height: 2px;
+    color: #370404;
+    width: 50%;
+    
+}
+
+.thirdsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    color: #370404;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.thirdsection h3{
+    margin-bottom: 20px;
+}
+.thirdsection form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    gap: 10px;
+}
+
+    
+   
+
+
+button {
+    background-color: #370404; /* Green background */
+    color: white; 
+    border: none; /* No border */
+    padding: 8px 20px; /* Padding */
+    text-align:center;
+    display: inline-block; 
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; 
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+   width: auto;
+   align-self: flex-end;/*align to the flex end*/
+}
+input[type="text"], input[type="email"] {
+    border: none; /* Remove the default border */
+    border-bottom: 2px solid #370404; /* Add a bottom border to create the underline effect */
+    width: 100%; 
+    padding: 8px 0; 
+    font-size: 16px; /* Adjust font size */
+    outline: none; 
+    color: #370404; /* Input text color */
+    background-color: transparent; /* Transparent background */
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-bottom: 2px solid #b53d5d; 
+}
+
+input::placeholder {
+    color: #888; /* Placeholder for text color */
+}
+
+button:hover {
+    background-color: #b53d5d ;/* Darker green when hover */
+}
+@media (max-width: 768px) {
+    .intro-content {
+        flex-direction: column; /* arranges elements vertically */
+        align-items: center; /* Center items */
+    }
+
+    .firstrec {
+        margin: 0 auto; /* Centers the rectangle */
+    }
+
+    .second {
+        flex-direction: column;
+        align-items: center; /* Center items */
+    }
+
+    .third {
+        width: 90%; /* Reduce width for small screens */
+    }
+}
+
+
+ 
+footer{
+    
+     
+        padding: 20px;
+        background-color: #370404;
+        color: white;
+       
+}
